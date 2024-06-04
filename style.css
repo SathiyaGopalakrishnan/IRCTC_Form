@@ -1,0 +1,208 @@
+/* Default code Starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Rajdhani", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    /* font-family: "Barlow Semi Condensed", sans-serif; */
+}
+
+:root {
+    --primaryColor: #032c48;
+    --secondaryColor: #ef8bae;
+    --tertiaryColor: #0b81d1;
+    --textDarkColor: #000000;
+    --textLightColor: #EFEFEF;
+    --lightColor: #FFFFFF;
+    --regularFont: 16px;
+    --headingFont: 54px;
+    --sebHeadingFont: 18px;
+    --paragraph: 16px;
+    --links-Buttons-Font: 16px;
+    --fontFamilyPrimary: "Rajdhani", sans-serif;
+    --fontFamilySecondary: "Merienda", cursive;
+}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+/* Default code Ends here */
+
+/* Project code start here */
+
+header {
+    background-color: #d5a1ff;
+    width: 100%;
+    height: auto;
+}
+
+.formContainer {
+    width: 100%;
+    /*   height: 100vh;*/
+    height: auto;
+    background-color: #cfe1ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm {
+    width: 1000px;
+    /*  padding: 20px;*/
+    padding: 100px 50px 60px 10px;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+form {
+    width: 970px;
+    padding: 40px;
+    border-top: 40px solid #203d77;
+    border-radius: 25px;
+    /*  background-color: #f7dde6;*/
+    /* background-color: #0b81d1;*/
+}
+
+.formGroup {
+    width: 100%;
+    padding: 10px;
+    /*   background-color: #9949db;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.formGroup .fa-arrow-down-up-across-line {
+    position: absolute;
+    right: 179px;
+    top: 65%;
+    color: #213A78;
+    font-size: 16px;
+}
+
+.formGroup .fa-location-arrow {
+    position: absolute;
+    left: 19px;
+    top: 30%;
+    color: #213A78;
+    font-size: 16px;
+}
+
+.formGroup .fa-location-dot,
+.formGroup .fa-suitcase {
+    position: absolute;
+    left: 19px;
+    top: 30%;
+    color: #213A78;
+    font-size: 16px;
+}
+
+.formGroup .fa-suitcase,
+.formGroup .fa-qrcode {
+    position: absolute;
+    left: 19px;
+    top: 35%;
+    color: #213A78;
+    font-size: 16px;
+}
+
+.formGroup input[type=text],
+select {
+    width: 80%;
+    padding: 8px 18px 8px 30px;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.formGroup label {
+    /* border:1px solid black;*/
+    padding: 3px 3px 0px 0px;
+    margin-left: 5px;
+    position: absolute;
+    margin-bottom: 36px;
+    font-size: 14px;
+    right: 785px;
+    top: 24%;
+}
+
+.formGroup input[type=date] {
+    width: 80%;
+    padding: 8px 18px 8px 40px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    margin-top: 34px;
+    /*margin-right:50px;*/
+    appearance: none;
+    /*Hide the default calendar icon*/
+}
+
+.formGroup input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    /*Hide the default calendar icon*/
+}
+
+.formGroup .fa-calendar-days {
+    position: absolute;
+    left: 18px;
+    top: 60%;
+    font-size: 15px;
+    color: blue;
+    pointer-events: none;
+}
+
+.formGroup input[type=checkbox] {
+    width: 4%;
+    padding: 8px 18px 8px 30px;
+    background-color: #ffffff;
+}
+
+.formGroup .searchBtn {
+    width: 80%;
+    padding: 3px 2px;
+    background-color: #f97B2f;
+    font-size: 16px;
+    border: 1px solid #f97B2f;
+    border-radius: 5px;
+}
+
+.formGroup .customCheckbox1 {
+    font-size: 16px;
+
+}
+
+.loginForm .irctcLbl {
+    width: 7%;
+    /* padding-top: 15px 30px 5px 15px ;*/
+    margin-left: 50px;
+    margin-bottom: 20px;
+    position: absolute;
+    padding: 8px 18px 8px 40px;
+    /*   background-color: #0f0cb8;*/
+    color: white;
+    border: none;
+    font-size: 18px;
+}
